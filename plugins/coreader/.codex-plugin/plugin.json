@@ -1,0 +1,35 @@
+{
+  "name": "coreader",
+  "version": "0.1.0",
+  "description": "Connect Codex to your Coreader reading memory and writing drafts through OAuth-backed MCP.",
+  "author": {
+    "name": "Coreader",
+    "url": "https://www.coreader.dev"
+  },
+  "homepage": "https://www.coreader.dev/install",
+  "repository": "https://github.com/vzheng56/coreader-plugins",
+  "license": "MIT",
+  "keywords": ["reading", "books", "memory", "writing", "mcp"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Coreader",
+    "shortDescription": "Search your reading memory and create cited drafts.",
+    "longDescription": "Connect Coreader to search books, notes, reflections, and reading artifacts, then create writing drafts with traceable references after explicit OAuth authorization.",
+    "developerName": "Coreader",
+    "category": "Productivity",
+    "capabilities": ["Search", "Read", "Write"],
+    "websiteURL": "https://www.coreader.dev",
+    "privacyPolicyURL": "https://www.coreader.dev/privacy",
+    "termsOfServiceURL": "https://www.coreader.dev/terms",
+    "defaultPrompt": [
+      "List my recently read Coreader books.",
+      "Search my reading memory for notes about attention.",
+      "Create a cited draft from selected Coreader artifacts."
+    ],
+    "brandColor": "#1D7A60",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  },
+  "mcpServers": "./.mcp.json"
+}

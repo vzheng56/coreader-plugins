@@ -1,0 +1,13 @@
+{
+  "name": "coreader",
+  "version": "0.1.0",
+  "description": "Connect Claude Code to your Coreader reading memory and writing drafts through OAuth-backed MCP.",
+  "author": {
+    "name": "Coreader",
+    "url": "https://www.coreader.dev"
+  },
+  "homepage": "https://www.coreader.dev/install",
+  "repository": "https://github.com/vzheng56/coreader-plugins",
+  "license": "MIT",
+  "keywords": ["reading", "books", "memory", "writing", "mcp"]
+}

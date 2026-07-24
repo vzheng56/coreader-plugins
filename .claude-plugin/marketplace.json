@@ -1,0 +1,26 @@
+{
+  "name": "coreader",
+  "owner": {
+    "name": "Coreader"
+  },
+  "metadata": {
+    "description": "Official Coreader plugins for AI coding tools",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "coreader",
+      "source": "./plugins/coreader",
+      "description": "Search your Coreader reading memory and create cited writing drafts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Coreader"
+      },
+      "homepage": "https://www.coreader.dev/install",
+      "repository": "https://github.com/vzheng56/coreader-plugins",
+      "license": "MIT",
+      "keywords": ["reading", "books", "memory", "writing", "mcp"],
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a Coreader plugin installation or usage problem
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options:
+        - Codex
+        - Claude Code
+        - Other MCP client
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Operating system, client version, and Coreader plugin version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Do not include tokens, cookies, reading content, or credentials.
+    validations:
+      required: true

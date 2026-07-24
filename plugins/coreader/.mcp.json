@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "coreader": {
+      "type": "http",
+      "url": "https://mcp.coreader.dev/mcp"
+    }
+  }
+}
