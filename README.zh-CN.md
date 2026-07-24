@@ -29,7 +29,7 @@ codex plugin add coreader@coreader
 ## 安装到 Claude Code
 
 ```bash
-claude plugin marketplace add vzheng56/coreader-plugins
+claude plugin marketplace add https://github.com/vzheng56/coreader-plugins.git
 claude plugin install coreader@coreader
 ```
 
