@@ -1,6 +1,6 @@
 {
   "name": "coreader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Connect Claude Code to your Coreader reading memory and writing drafts through OAuth-backed MCP.",
   "author": {
     "name": "Coreader",
