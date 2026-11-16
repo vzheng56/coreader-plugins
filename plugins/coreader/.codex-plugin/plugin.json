@@ -1,6 +1,6 @@
 {
   "name": "coreader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Connect Codex to your Coreader reading memory and writing drafts through OAuth-backed MCP.",
   "author": {
     "name": "Coreader",
@@ -14,7 +14,7 @@
   "interface": {
     "displayName": "Coreader",
     "shortDescription": "Search your reading memory and create cited drafts.",
-    "longDescription": "Connect Coreader to search books, notes, reflections, and reading artifacts, then create writing drafts with traceable references after explicit OAuth authorization.",
+    "longDescription": "Connect Coreader to read your books, notes, reflections, recordings with their transcripts, reading activity and research documents, then create writing drafts with traceable references after explicit OAuth authorization.",
     "developerName": "Coreader",
     "category": "Productivity",
     "capabilities": ["Search", "Read", "Write"],
@@ -22,9 +22,9 @@
     "privacyPolicyURL": "https://www.coreader.dev/privacy",
     "termsOfServiceURL": "https://www.coreader.dev/terms",
     "defaultPrompt": [
-      "List my recently read Coreader books.",
+      "What have I been reading in Coreader this month?",
       "Search my reading memory for notes about attention.",
-      "Create a cited draft from selected Coreader artifacts."
+      "Summarize what I said while reading my current book."
     ],
     "brandColor": "#1D7A60",
     "composerIcon": "./assets/icon.png",
